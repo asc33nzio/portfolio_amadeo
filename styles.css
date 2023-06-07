@@ -1,0 +1,117 @@
+body {
+    background-color:#98cdd7;
+}
+
+.navbar {
+    background-image: url("./assets/aether.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 333px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar a {
+    color: white;
+    font-family: monospace;
+    font-size: 25px;
+    text-decoration: solid;
+    border: 2px solid #91C1B3;
+    padding: 5px 10px;
+    transition: background-color 3s;
+}
+
+.navbar a:hover {
+    color: #577375;
+    background-color: #B0DEE8;
+}
+
+/* .div {
+
+} */
+
+.mugshot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mugshot img {
+    width: 400px;
+    height: 400px;
+}
+
+.mugshot:hover img {
+    animation:rotate infinite alternate-reverse 2s;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(-35deg);
+    }
+    to {
+        transform: rotate(35deg);
+    }
+}
+
+/* .shortintro {
+
+} */
+
+.shortintro p {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.shortintro img {
+    display: flex;
+    width: 720px;
+    height: 900px;
+    margin: auto;
+}
+
+@media screen and (max-width: 320px) {
+    .shortintro img {
+        display: flex;
+        width: 320px;
+        height: 480px;
+        max-width: 320px;
+        max-height: 480px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .shortintro img {
+        display: flex;
+        width: 481px;
+        height: 768px;
+        max-width: 481px;
+        max-height: 768px;
+        margin: auto;
+    }
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+footer p {
+    font-family: monospace;
+    font-size: 9px;
+    text-align: center;
+    margin: 0.5px;
+}

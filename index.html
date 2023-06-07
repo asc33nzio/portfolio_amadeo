@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Amadeo's Personal Portfolio</title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<header>
+    <nav class="navbar">
+        <a class="navbar1" id="navbar1" href="index.html">Home</a>
+        <a class="navbar2" href="#shortintro" >About</a>
+        <a class="navbar3" href="portfolio.html" target="_blank">Portfolio</a>
+        <a class="navbar4" href="#socials" >Contact</a>
+    </nav>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+</header>
+
+<body>
+    <div class="mugshot">
+        <img src="./assets/amadeoMarli.png" alt="Amadeo Marli">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+
+    <div class="shortintro" id="shortintro">
+        <p>Strategic and an analytical thinker by nature.</p>
+        <p>Numerous business consulting pursuits.</p>
+        <p>Now an aspiring website developer and software engineer.</p>
+        <br/>
+        <br/>
+        <br/>
+        <img src="./assets/digitalRain.gif" alt="Blue Digital Rain">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+    
+    <div class="socials" id="socials">
+        <img src="./assets/thumbnail/wa.png" alt="whatsapp" onclick="waHandler()">
+        <img src="./assets/thumbnail/gmail.png" alt="gmail" onclick="mailHandler()">
+        <img src="./assets/thumbnail/in.png" alt="linkedin" onclick="linkedinHandler()">
+        <img src="./assets/thumbnail/ig.png" alt="instagram" onclick="instagramHandler()">
+        <img src="./assets/thumbnail/ghub.png" alt="github" onclick="githubHandler()">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+
+    <footer>
+        <p>Image copyright of Matteo Zamagni <b>©</b>2016 (mirrored)</p>
+        <p>Aether, a beautiful rendition of fractals</p>
+        <p>using Google Deepdream's neural network.</p>
+    </footer> 
+</body>
+
+<script>
+    function waHandler() {
+        window.open("https://wa.me/+6285894085699", "_blank");
+        };
+
+    function mailHandler() {
+        window.open("mailto:amadeo.f.marli@gmail.com", "_blank");
+        };
+
+    function linkedinHandler() {
+        window.open("https://www.linkedin.com/in/amdmarli", "_blank");
+        };
+
+    function instagramHandler() {
+        window.open("https://www.instagram.com/amdmarli", "_blank");
+        };
+
+    function githubHandler() {
+        window.open("https://github.com/asc33nzio", "_blank");
+        };
+</script>
+</html>
